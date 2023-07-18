@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    width:85%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;
+}
+.logo{
+    width:150px;
+}
+.lists{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.links{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+.links:hover{
+    color: red;
+}
+.title{
+    margin: 13% 0px 0px 8%;
+}
+.title-h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+#last-name{
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+}
+.title-link{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+.images{
+    position: absolute;
+    bottom:0px;
+    width:45%;
+    height:80%;
+    right:30px;
+}
+.imageGroup{
+    position: absolute;
+    height: 90%;
+    bottom: 0px;
+    left:50%;
+    transform: translate(-50%);
+    transition: bottom 1s,left,2s;
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #girl{
+   left:40%;
+}
+#about{
+    margin: 13% 8% 0px 8%;
+}
+.about-head{
+text-align: center;
+}
+
+.about-head>h2{
+    font-size: 30px;
+}
+.about-head>span{
+    font-size: 20px;
+    color: blue;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.about-img img{
+    width:80%;
+    border-radius: 1rem;
+}
+.about-details{
+   
+    font-size : 18 px;
+font-weight: 400;
+text-align: justify;
+
+}
+.informations{
+    margin:1rem 0 0 0;
+}
+.info-box{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 0;
+    margin-top: 10px;
+}
+.info-box span{
+    margin-left: 1rem;
+}
+#skills{
+    margin: 8% 8% 0px 8%;
+}
+.skill_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.skill-img{
+    width:90%;
+   padding-left: 4rem;
+  
+}
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.bar-container h1,span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color:black;
+border-radius: .5rem;
+position: absolute;
+bottom: 0px;
+left: 0px;
+}
+.html-bar{
+    background-color: orange;
+    width: 95%;
+}
+.css-bar{
+    background-color: orange;
+    width: 85%;
+}
+.js-bar{
+    background-color: orange;
+    width: 90%;
+}
+.react-bar{
+    background-color: orange;
+    width: 87%;
+}
+.icon{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+@-o-keyframes shake{
+    10%{transform: rotate(-1);}
+    20%{transform: rotate(-1);}
+    30%{transform: rotate(-1);}
+    40%{transform: rotate(-1);}
+    
+}
+footer{
+    margin: 3rem 0px;
+}
+.up-arrow{
+    float: right;
+    background-image: linear-gradient(to bottom right,yellow,orange,rbg(224,240,240));
+    margin: 0px 20px 30px 0px;
+}
+.up-arrow:hover{
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    background-color: chocolate;
+    border-radius: 10px;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
